@@ -1,0 +1,126 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    color: #6ECCAF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    
+}
+.row::after{ clear:both; content:''; display:table}
+.container{width: 70%; margin: 0 auto; padding: 0;}
+h1{font-size: 40px; margin: 30px 0; font-family: 'Montserrat', sans-serif;}
+p{color: black; font-size: 20px;}
+.left{float: left;}
+.right{float: right;}
+/*-----------HEADER-----------*/
+header{
+    background-color: #FFFBC1;
+}
+.oneVh{
+    min-height: 1vh;
+}
+header h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    margin: 10px 0;
+}
+header h3{
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 0.1em;
+}
+/*------------INFO------------*/
+#info{
+    margin: 100px auto ;
+}
+#info img{
+    height: 200px;
+    border-radius: 50%;
+}
+#info p{
+    width: 50%;
+    margin: 0 auto;
+}
+hr{
+    border-width: 5px;
+    border-style: dotted none none;
+    border-color: gray;
+    width: 5%;
+}
+/*----------SKILLS----------*/
+#skill h1{
+    margin: 100px auto 60px auto;
+}
+.subSkill{
+    display:inline-block;
+    width: 70%;
+    padding: 40px 0;
+}
+.subSkill img{
+    width: 200px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.skill-detail{
+    text-align: left;
+    margin: 30px;
+}
+#skill h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------CONTACT----------------- */
+#contact {
+    width: 40%;
+}
+#contact h3{
+    margin: 30px;
+    
+}
+#contact button{
+    background-color: rgb(17, 205, 212);
+    background-image: linear-gradient(rgb(17, 205, 212), rgb(17, 153, 158));
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;;
+}
+#contact button:hover{
+    padding-right: 25px;
+    padding-left: 25px;
+    box-shadow: #6ECCAF 10px;
+    opacity: 95%;
+}
+/* -------------FOOTER--------------- */
+footer{
+    background-color: #66BFBF;
+    min-height: 100px;
+    color:white;
+    padding: 60px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #11999e;
+    padding: 10px 20px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.9em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 60px;
+}
+
+footer a:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
